@@ -1,0 +1,39 @@
+.box {
+    padding: 3% 0% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    width: 100% !important;
+}
+
+.card {
+    width: 100% !important;
+    background-color: #f8f8f8 !important;
+    margin-bottom: 3%;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comment {
+    padding: 1% 0% 0% 1.2%;
+    color: #45474B;
+}
+
+.name {
+    color: grey;
+    padding: 0% 1% !important;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold !important;
+    color: #45474B;
+    font-family: 'Cardo', serif !important;
+    font-size: 23px !important;
+    padding: 0% 1%;
+}

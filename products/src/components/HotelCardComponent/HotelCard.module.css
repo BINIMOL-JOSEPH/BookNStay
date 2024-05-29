@@ -1,0 +1,74 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding: 2% 9% 6% 9%;
+}
+
+.card {
+    width: 30%;
+    margin-top: 3%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.hotel_name {
+    font-size: 26px !important;
+    font-weight: bold !important;
+    font-family: 'Cardo', serif !important;
+    color: #423e39;
+    padding: 3% 0% 0% 0%;
+}
+
+.card:hover .hotel_name{
+    color: rgb(215, 163, 67);
+}
+
+.hotel_details {
+    font-size: 17.5px !important;
+    font-family: 'Cardo', serif !important;
+    font-weight: bold !important;
+    color: #6c6864;
+    padding: 0% 0% 3% 0%;
+}
+
+.price_box {
+    display: flex;
+    justify-content: end;
+    padding: 3% 4% 8% 0%;
+    flex-direction: row;
+    gap: 3%;
+    align-items: center;
+}
+
+.hotel_price_details {
+    font-size: 20px !important;
+    font-family: 'Cardo', serif !important;
+    color: #232323;
+}
+
+.hotel_price {
+    font-size: 23px !important;
+    font-family: 'Cardo', serif !important;
+    color: #26292b;
+    font-weight: bold !important;
+}
+
+.detailsLink {
+    display: flex;
+    font-size: 18px !important;
+    font-family: 'Cardo', serif !important;
+    color: #2196f3;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.detailsLink:hover {
+    color: #1565c0;
+}

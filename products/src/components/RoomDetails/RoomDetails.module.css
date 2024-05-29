@@ -1,0 +1,44 @@
+.text {
+    font-family: 'Cardo', serif !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    display: flex;
+    justify-content: flex-start;
+    color: #232323;
+    padding: 4% 0% 0% 0%;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding: 0% 12.5% 6% 12.5%;
+}
+
+.divider {
+    border-width: thin !important;
+    width: 75% !important;
+    margin: auto !important;
+}
+
+.subText {
+    font-family: 'Open sans', serif !important;
+    color: #6f6f6f;
+    display: flex;
+    padding: 2% 0% 4% 0%;
+    font-size: 19px !important;
+    letter-spacing: 1px;
+}
+
+.facilities {
+    padding: 9% 0% 0% 0% !important;
+}
+
+.carosel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0% 0% 0%;
+}

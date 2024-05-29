@@ -1,0 +1,9 @@
+.cardMedia {
+    height: 330px;
+    background-position: 'center';
+}
+
+.box {
+    width: 100% !important;
+    padding: 0%;
+}

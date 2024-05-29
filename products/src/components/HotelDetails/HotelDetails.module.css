@@ -1,0 +1,95 @@
+.text {
+    font-family: 'Cardo', serif !important;
+    font-weight: bold !important;
+    font-size: 64px !important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 9% 0% 0% 0%;
+}
+
+.breadcrumbs {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0% 9% 0%;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cardo', serif !important;
+    font-size: 19px !important;
+}
+
+.firstlink {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.secondlink {
+    font-weight: bold !important;
+}
+
+.hoteltext {
+    font-family: 'Cardo', serif !important;
+    font-weight: bold !important;
+    font-size: 39px !important;
+    color: #232323;
+    display: flex;
+    justify-content: center;
+    padding: 6% 0% 0% 0%;
+}
+
+.subText {
+    font-family: 'Cardo', serif !important;
+    color: #6f6f6f;
+    display: flex;
+    justify-content: center;
+    font-weight: bold !important;
+    padding: 1% 0% 0% 0%;
+    font-size: 18px !important;
+}
+
+.tabs {
+    padding: 3% 0% 0% 0%;
+    display: grid !important;
+    justify-content: center !important;
+}
+
+.tabText {
+    font-family: 'Cardo', serif !important;
+    font-size: 23px !important;
+    font-weight: bold !important;
+    margin-left: 38px !important;
+}
+
+.divider {
+    border-width: thin !important;
+    width: 75% !important;
+    margin: auto !important;
+}
+
+.icons {
+    color: #6f6f6f !important;
+    font-size: 30px !important;
+}
+
+.locationlink {
+    padding: 1% 0% 4% 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.label {
+    font-family: 'Open sans', serif !important;
+    color: #6f6f6f !important;
+    font-size: 19px !important;
+    padding: 0% 0% 0% 1%;
+    text-decoration: none;
+}
+
+.label1:hover {
+    color: rgb(215, 163, 67) !important;
+}
